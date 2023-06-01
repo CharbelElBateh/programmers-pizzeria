@@ -1,7 +1,7 @@
 <h1 align="middle" font-weight="bold" > Builder Design Pattern </h1>
 
 <p align="center">
-  <img src="https://github.com/CharbelElBateh/builder-design-pattern/blob/main/create-pizza.png" width="350" title="Create Your Own Pizza">
+  <img src="https://github.com/CharbelElBateh/programmers-pizzeria/assets/99130418/e9e8a733-ca23-4094-a277-59d442948142" width="350" title="Create Your Own Pizza">
 </p>
 
 # Programmer's Pizzaeria 🍕
@@ -10,50 +10,33 @@ This project is an effective implementation of the builder design pattern as par
 
 ### What is the builder design pattern?
 
+The builder design pattern suggests that you extract the object construction code out of its own class and move it to seperate objects called builders.
 
 ### What problem does it solve?
 
-
+The builder deisgn pattern allows you to create different flavors of an object while avoiding constructor pollution. Useful when there could be several flavors of an object. Or when there are a lot of steps involved in creation of an object.
 
 
 ## How to run?
 
-### 1. Download & Extract The Zip File 📁
+### 1. Download your prefered webserver
 
-[Project Pizzeria.rar](https://github.com/CharbelElBateh/builder-design-pattern/blob/main/Project%20Pizzeria.rar)
+I use [XAMPP](https://www.bing.com/ck/a?!&&p=97ffa3fe265a2517JmltdHM9MTY4NTU3NzYwMCZpZ3VpZD0xNWZmYzNkMS03NzE1LTY3NTktMDk0Ny1kMGYzNzY2ZDY2MmUmaW5zaWQ9NTE5Mg&ptn=3&hsh=3&fclid=15ffc3d1-7715-6759-0947-d0f3766d662e&psq=xampp&u=a1aHR0cHM6Ly93d3cuYXBhY2hlZnJpZW5kcy5vcmcvZG93bmxvYWQuaHRtbA&ntb=1)
 
-### 2. Run the .exe file
+### 2. Start the servers 💻
 
-![run-devserver.exe](https://github.com/CharbelElBateh/builder-design-pattern/blob/main/executable-version.png)
-
-### 3. Start the servers 💻
-
-1. Right click on the icon displayed in the bottom bar
-
-  <p align="center">
-    <img src="https://github.com/CharbelElBateh/builder-design-pattern/blob/main/icon-to-run.png" title="icon to run">
-  </p>
-  
-2. Start the servers
-
-  <p align="center">
-    <img src="https://github.com/CharbelElBateh/builder-design-pattern/blob/main/run-server.png" title="start server">
-  </p>
+This step is very dependable on the your preferred webserver
   
 ### 4. Access the website 🔓
-
-❗ Give the servers some time to start before opening the website or else an error might show
-
-_the error will go away once you refresh_
 
 You can access the website through your localhost
 
 Here are the links 🌐:
 
-- [Main Website](http://127.0.0.1/Programmers_pizzaria/index.php)
-- [Database Interface](http://127.0.0.1/eds-modules/phpmyadmin470x221030121411)
+- [Main Website](http://127.0.0.1/programmers-pizzaria/index.php)
 
-
+_Your Database interface location will also depend on yout preferred webserver_
+- [Database Interface](http://localhost/phpmyadmin/index.php)
 
 ## Technologies used
 
@@ -70,13 +53,13 @@ Here are the links 🌐:
 ## UML Diagram of the builder design pattern implemented 📊
 
 <p align="center">
-  <img src="https://github.com/CharbelElBateh/builder-design-pattern/blob/main/Programmer's%20Pizzeria%20UML%20Diagram.png" title="UML Diagram">
+  <img src="https://github.com/CharbelElBateh/programmers-pizzeria/assets/99130418/e949018c-a866-4f56-a73e-13b7002a8f37" title="UML Diagram">
 </p>
 
 ## Database Structure 🏗️:
 
 <p align="center">
-  <img src="https://github.com/CharbelElBateh/builder-design-pattern/blob/main/database-structure.png" title="Database Structure">
+  <img src="https://github.com/CharbelElBateh/programmers-pizzeria/assets/99130418/34cb26af-7934-4cb7-80ac-e5e48e2d4352" title="Database Structure">
 </p>
 
 ------------------------------------------------------------
