@@ -10,32 +10,36 @@ This project is an effective implementation of the builder design pattern as par
 
 ### What is the builder design pattern?
 
-The builder design pattern suggests that you extract the object construction code out of its own class and move it to seperate objects called builders.
+The builder design pattern suggests that you extract the object construction code from its own class and move it to separate objects called builders.
 
 ### What problem does it solve?
 
-The builder deisgn pattern allows you to create different flavors of an object while avoiding constructor pollution. Useful when there could be several flavors of an object. Or when there are a lot of steps involved in creation of an object.
+The builder design pattern allows you to create different flavors of an object while avoiding constructor pollution. Practical when there could be several flavors of an object. Or when there are many steps involved in creating an object.
 
 
 ## How to run?
 
-### 1. Download your prefered webserver
+### 1. Download your preferred web server
 
 I use [XAMPP](https://www.bing.com/ck/a?!&&p=97ffa3fe265a2517JmltdHM9MTY4NTU3NzYwMCZpZ3VpZD0xNWZmYzNkMS03NzE1LTY3NTktMDk0Ny1kMGYzNzY2ZDY2MmUmaW5zaWQ9NTE5Mg&ptn=3&hsh=3&fclid=15ffc3d1-7715-6759-0947-d0f3766d662e&psq=xampp&u=a1aHR0cHM6Ly93d3cuYXBhY2hlZnJpZW5kcy5vcmcvZG93bmxvYWQuaHRtbA&ntb=1)
 
 ### 2. Start the servers 💻
 
-This step is very dependable on the your preferred webserver
-  
+This step is very dependable on your preferred web server
+
+### 3. Import the database 🗄️
+
+Create a new database called 'database' and import the `dashboard.sql` file.
+
 ### 4. Access the website 🔓
 
-You can access the website through your localhost
+You can access the website through your local
 
 Here are the links 🌐:
 
 - [Main Website](http://127.0.0.1/programmers-pizzaria/index.php)
 
-_Your Database interface location will also depend on yout preferred webserver_
+_Your Database interface location will also depend on your preferred web server_
 - [Database Interface](http://localhost/phpmyadmin/index.php)
 
 ## Technologies used
